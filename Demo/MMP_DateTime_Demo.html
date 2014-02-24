@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type = "text/javascript" src="mmp_datetime.min.js"></script>
+<script type = "text/javascript">
+function getDate()
+{
+	var dateObj = new MMPDate("Year         : YYYY, YYY<br/>\
+						 Month        : MMMMM, MMMM, MMM<br/>\
+						 Day          : DDDDD, DDDD<br/>\
+						 Date         : DDD<br/>\
+						 Hour         : HHHH, HHH<br/>\
+						 Minute       : mmm<br/>\
+						 Second       : sss<br/>\
+						 Milli Second : lll");
+	document.getElementById("datetime").innerHTML = dateObj.FormattedDate();
+}
+</script>
+<title>MMP_DateTime Demo </title>
+</head>
+<body>
+<div id="datetime"></div>
+<input type="button" value="Get Date" onclick="getDate();"/>
+</body>
+</html>
