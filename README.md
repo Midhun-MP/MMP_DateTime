@@ -65,6 +65,6 @@ Author : Midhun M P
 
 Email  : midhunmp7@gmail.com
 
-Copyright (c) 2014 Midhun-MP
+Version 1.0 2014 Midhun-MP
 
 If you have any suggestions for this module, please feel free to send me an email. :)
